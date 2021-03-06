@@ -40,7 +40,7 @@ class Productlist extends React.Component{
                 <Form.Control style={{fontSize: "20px", height: "40px"}} as="select" onChange={this.handleChange} name="option">
                     {selectList}
                 </Form.Control>
-                    <input style={{width: "67%", height: "40px"}} type="search" name="title" value={this.state.title} placeholder="search by Title" onChange={this.filter} />
+                    <input style={{width: "67%", height: "40px"}} type="search" name="title" value={this.state.title} placeholder="Search Product" onChange={this.filter} />
                 </form>
                 
                 <div className="scrolling">
